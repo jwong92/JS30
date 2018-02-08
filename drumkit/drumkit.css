@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    font-size: 10px;
+}
+
+#background {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#keys-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.allKeys {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+[class^="key"] {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    width: 4em;
+    height: 4em;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+[class^="key"]:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="drum-kit" content="description" />
+        <title>Drum Kit</title>
+        <script type="text/javascript" src="drumkit.js"></script>
+        <link rel="stylesheet" type="text/css" href="drumkit.css" />
+    </head>
+    <body>
+        <main>
+            <div id="background" alt="background">
+                <section id="keys-container">
+                    <div class="allKeys">
+                        <div class="key-1" data-key="97">
+                            <span>A</span>
+                            <span class="sound">boing</span>
+                        </div>
+                        <div class="key-2" data-key="115">
+                            <span>S</span>
+                            <span class="sound">pop</span>
+                        </div>
+                        <div class="key-3" data-key="100">
+                            <span>D</span>
+                            <span class="sound">ricochet</span>
+                        </div>
+                        <div class="key-4" data-key="102">
+                            <span>F</span>
+                            <span class="sound">shatter</span>
+                        </div>
+                        <div class="key-5" data-key="103">
+                            <span>G</span>
+                            <span class="sound">spring</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <audio data-key="97" src="BOING_.WAV" type="audio/WAV"></audio>
+            <audio data-key="115" src="POP.WAV" type="audio/WAV"></audio>
+            <audio data-key="100" src="RICOCHET.WAV" type="audio/WAV"></audio>
+            <audio data-key="102" src="SHATTERE.WAV" type="audio/WAV"></audio>
+            <audio data-key="103" src="SPRING_B.WAV" type="audio/WAV"></audio>
+        </main>
+    </body>
+</html>
