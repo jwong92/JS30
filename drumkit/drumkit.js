@@ -37,17 +37,13 @@ function pageready() {
         document.addEventListener("keypress", getKeyCode);
         document.addEventListener("keypress", changeBackground);
     }
-    function revertBackground(e) {
-        var keyCode = e.keyCode;
-        var divElement = document.querySelector("div[data-key='"+§ªkeyCode+"']");
-        console.log(divElement);
-        divElement.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-    }
-    document.addEventListener("keyup", revertBackground);
-
-
-
-    //on click, play the associated sound
+    // function revertBackground(e) {
+    //     var keyCode = e.keyCode;
+    //     var divElement = document.querySelector("div[data-key='"+§ªkeyCode+"']");
+    //     console.log(divElement);
+    //     divElement.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+    // }
+    // document.addEventListener("keyup", revertBackground);
 
 }//End page load
 

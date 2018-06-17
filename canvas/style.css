@@ -1,0 +1,9 @@
+/* Everywhere */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-family: Helvetica, Arial, sans-serif;
+}
